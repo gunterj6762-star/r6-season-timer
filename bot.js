@@ -3,7 +3,7 @@ const { Client, GatewayIntentBits } = require("discord.js");
 const TOKEN = process.env.TOKEN;
 const CHANNEL_ID = process.env.CHANNEL_ID;
 
-const SEASON_END = new Date("2026-06-02T10:00:00-04:00");
+const SEASON_END = new Date("2026-06-09T13:00:00-04:00");
 
 const client = new Client({
   intents: [GatewayIntentBits.Guilds],
